@@ -1,0 +1,191 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+	background:url(../images/bg0.jpg) repeat-y top center;
+	margin:0px;
+	padding:0px;
+	}
+body {
+	background:url(../images/fondo.jpg) no-repeat center top; 
+	margin:0px;
+	padding:0px;
+	height:778px;
+}
+
+#menu1contenedor{
+width:960px; height:83px; display:block; position:relative; z-index:2; 
+}
+#menucontenedor{
+width:960px; height:50px; display:block; position:relative; z-index:3; 
+}
+#menu{
+width:960px; height:25px; 
+}
+#submenu{
+width:960px; height:21px;
+}
+
+#bg1{
+width:996px;
+height:42px;
+background:url(../images/bg1.png) no-repeat;
+position:absolute; margin-top:0px; margin-left:0px;
+}
+#bg21{
+/*width:996px;
+height:100%;*/
+background:url(../images/bg21.png) repeat-y;
+}
+#bg22{
+width:996px;
+height:410px;
+background:url(../images/bg22.jpg) no-repeat;
+}
+#bg3{
+width:996px;
+height:68px;
+background:url(../images/bg3.png) no-repeat;
+}
+
+#proyectosrealizados{
+width:162px;
+height:23px;
+display:block;
+cursor:pointer;
+background:url(../images/b0-proyectos-realizados.gif) no-repeat;
+}
+#proyectosrealizados:hover{
+width:162px;
+height:23px;
+display:block;
+cursor:pointer;
+background:url(../images/b1-proyectos-realizados.gif) no-repeat;
+}
+#proyectosrealizados1{
+width:162px;
+height:23px;
+display:block;
+cursor:pointer;
+background:url(../images/b1-proyectos-realizados.gif) no-repeat;
+}
+/* aqui ingresar css para MAPAFLASH*/
+#mapformulario{
+    width:300px;
+    float:left;
+    position:relative;
+    z-index:50;
+}
+#mapformtitulo{
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 19px;
+    color: #F9BC00;
+    text-align: left;
+    float:left;
+    width:300px;
+    margin-bottom:10px;
+}
+.mapformlabel{
+    width:300px;
+    float:left;
+    text-align:left;
+    padding-top:12px;
+}
+.mapforminput{
+    width:300px;
+    float:left;
+    text-align:left;
+}
+.mapforminput input{
+    width:300px;
+    float:left;
+}
+.mapforminput textarea{
+    width:300px;
+    height:120px;
+}
+.mapformsubit{
+    padding-top:10px;
+    width:300px;
+    float:right;
+    
+}
+.mapformsubit input{
+    float:right;
+    width:75px;
+    height:27px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 10px;
+    text-align: center;
+    background-color: #F9BC00;
+    border: none;
+}
+#mapcontenido{
+    float:right;
+    width:600px;
+    height:370px;
+    position:relative;
+    z-index:30;
+    overflow:hidden;
+}
+#flashmapa{
+    float:left;
+    width:600px;
+    height:370px;
+}
+#gmap{
+    float:right;
+    width:600px;
+    height:370px;
+    position:relative;
+    top:10px;
+}
+#dgm{
+    position:relative;
+    z-index:40;
+    float:right;
+    margin-right:20px;
+    margin-top:-50px;
+    width:70px;
+    height:15px;
+    text-align:center;
+    background:#F9BC00;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    text-decoration:none;
+    border:1px solid;
+    color: #000000;
+}
+/*codigo para el dialog box*/
+.jqmWindow {
+    display: none;
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    margin-left: -300px;
+    width: 600px;
+    background-color:#FFFFFF;
+    border: 1px solid #000000;
+    color:#C6AD01;
+}
+/*para el formulario de busqueda*/
+#dlgmensaje{
+    display:none;
+    background-color: #ffffff;
+    border:1px;
+    color:#C6AD01;
+    font-weight:bold;
+    margin-left: -125px;
+    width: 250px;
+    height:60px;
+    text-align:center;
+    padding-top:15px;
+    border:2px solid #C6AD01;
+}
+.jqmOverlay { background-color: #000; }
+/* Background iframe styling for IE6. Prevents ActiveX bleed-through (<select> form elements, etc.) */
+* iframe.jqm {position:absolute;top:0;left:0;z-index:-1;
+	width: expression(this.parentNode.offsetWidth+'px');
+	height: expression(this.parentNode.offsetHeight+'px');
+}

@@ -1,0 +1,28 @@
+#galprincipal{
+    position:relative;
+    z-index:500;
+}
+#galdetalle{
+    position:relative;
+    z-index:500;
+}
+#galthumbs{
+    position:relative;
+    z-index:500;
+}
+#galthumbs img{
+    position:relative;
+    z-index:501;
+    border:1px solid #FFFFFF;
+}
+#galthumbs img:hover{
+    border:10px solid #000000;
+}
+#galmenu{
+    position:relative;
+    z-index:500;
+}
+.fila{
+    position:relative;
+    z-index:501;
+}

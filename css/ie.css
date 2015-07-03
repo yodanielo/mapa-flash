@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+
+#bg1{
+width:996px;
+height:42px;
+display:block;
+background-image: none;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/bg1.png", sizingMethod="scale");
+position:absolute; margin-top:0px; margin-left:0px;
+}
+
+#bg21{
+/*width:996px; 
+height:100%;*/
+z-index:1;
+background-image: none; 
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/bg21.png", sizingMethod="scale");
+/*background-repeat: repeat-y;*/
+}
+
+#bg3{
+width:996px;
+height:68px;
+background-image: none;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/bg3.png", sizingMethod="scale");
+}
+
+#proyectosrealizados{
+width:162px;
+height:23px;
+display:block;
+cursor:pointer;
+background-image: none;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/b0-proyectos-realizados.gif", sizingMethod=”scale”);
+}
+#proyectosrealizados:hover{
+width:162px;
+height:23px;
+display:block;
+cursor:pointer;
+background-image: none;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/b1-proyectos-realizados.gif", sizingMethod=”scale”);
+}
+#proyectosrealizados1{
+width:162px;
+height:23px;
+display:block;
+cursor:pointer;
+background-image: none;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/b1-proyectos-realizados.gif", sizingMethod=”scale”);
+}
+/* aqui ingresar css para GALERIAS*/ 
+#mapflecha{
+    position:relative;
+    z-index:30;
+    left:-10px;
+    top:-365px;
+    float:left;
+    clear:left;
+}
+#f1{
+    background-image: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/mapa-JS/canarias-on.png", sizingMethod=”scale”);
+    position:absolute;
+    z-index:50;
+}
+#f2{
+    background-image: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/mapa-JS/castilla-y-leon-on.png", sizingMethod=”scale”);
+    position:absolute;
+    z-index:50;
+}
+#f3{
+    background-image: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/mapa-JS/catalunya-on.png", sizingMethod=”scale”);
+    position:absolute;
+    z-index:50;
+}
+#f4{
+    background-image: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/mapa-JS/central-on.png", sizingMethod=”scale”);
+    position:absolute;
+    z-index:50;
+}
+#f5{
+    background-image: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/mapa-JS/cordoba-on.png", sizingMethod=”scale”);
+    position:absolute;
+    z-index:50;
+}
+#f6{
+    background-image: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/mapa-JS/levante-on.png", sizingMethod=”scale”);
+    position:absolute;
+    z-index:50;
+}
+#f7{
+    background-image: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/mapa-JS/lisboa-on.png", sizingMethod=”scale”);
+    position:absolute;
+    z-index:50;
+}
+#f8{
+    background-image: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/mapa-JS/norte-on.png", sizingMethod=”scale”);
+    position:absolute;
+    z-index:50;
+}
+#f9{
+    background-image: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/mapa-JS/sevilla-on.png", sizingMethod=”scale”);
+    position:absolute;
+    z-index:50;
+}
+#maplinks{
+    float:left;
+    clear:left;
+    width:315px;
+    margin-top:123px;
+    position:relative;
+    z-index:40;
+}

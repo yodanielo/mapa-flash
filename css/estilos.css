@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+body {
+scrollbar-arrow-color: #FFFFFF;
+scrollbar-base-color: #FFFFFF;
+scrollbar-darkshadow-color: #FFFFFF;
+scrollbar-track-color: #FFFFFF;
+scrollbar-face-color: #E6E7E9;
+scrollbar-shadow-color: #FFFFFF;
+scrollbar-highlight-color: #FFFFFF;
+scrollbar-3d-light-color: #FFFFFF;
+}*/
+
+.txt1 { font-size: 9px; color: #b0cbcb; font-family: Verdana, Tahoma, "Trebuchet MS", Arial, sans-serif;}
+.txt2 { font-size: 10px; color: #333333; font-family: "Trebuchet MS", Tahoma, Verdana, Arial, sans-serif;}
+
+.titulo01 { font-size: 20px; color: #f9bc00; font-family: Arial, sans-serif, Verdana, Tahoma; line-height: 23px;}
+.titulo02 { font-size: 18px; color: #f9bc00; font-family: Arial, sans-serif, Verdana, Tahoma; line-height: 20px;}
+
+.color01 { font-size: 12px; color: #004c6a; font-family: Verdana, Tahoma, "Trebuchet MS", Arial, sans-serif; font-weight:bold;}
+.color02 { font-size: 11px; color: #01a9eb; font-family: Verdana, Tahoma, "Trebuchet MS", Arial, sans-serif; font-weight:bold; line-height: 14px;}
+
+.contenido01 { font-size: 10px; color: #737373; font-family: Verdana, Tahoma, "Trebuchet MS", Arial, sans-serif; line-height: 16px; text-align: justify; }
+.contenido02 { font-size: 10px; color: #030303; font-family: Arial, sans-serif, Verdana, Tahoma; line-height: 16px; text-align: justify; }
+
+.contenido03 { font-size: 12px; color: #000000; font-family: Verdana, Tahoma, "Trebuchet MS", Arial, sans-serif; line-height: 20px; text-align: justify; padding: 30px 85px 0px 65px;}
+
+.politicaprivacidad { font-size: 14px; color: #7d7c80; font-family: "Trebuchet MS", Tahoma, Verdana, Arial, sans-serif; font-weight:bold; /*line-height: 10px;*/}
+.submenu { font-size: 11px; color: #948d8d; font-family: Arial, sans-serif, Verdana, Tahoma; }
+.submenu1 {font-family: Verdana, Arial, sans-serif,  Tahoma; font-size: 9px; color:#948d8d; font-weight:bold; text-decoration:underline;}
+.submenu30 { font-size: 9px; color: #b3b1b1; font-family: Arial, sans-serif, Verdana, Tahoma; }
+.submenu31 {font-family: Verdana, Arial, sans-serif,  Tahoma; font-size: 9px; color:#f9bc00; font-weight:bold; text-decoration:underline;}
+.submenu32 {font-family: Verdana, Arial, sans-serif,  Tahoma; font-size: 9px; color:#f9bc00; font-weight:bold; }
+
+/*submenu*/
+a.linksm:link, a.linksm:visited {font-family: Arial, sans-serif, Verdana, Tahoma; font-size: 10px; color:#948d8d; text-decoration:none }
+a.linksm:active, a.linksm:hover {font-family: Verdana, Arial, sans-serif,  Tahoma; font-size: 9px; color:#948d8d; font-weight:bold; text-decoration:underline; }
+
+a.linksm31:link, a.linksm31:visited {font-family: Arial, sans-serif, Verdana, Tahoma; font-size: 9px; color:#b3b1b1; text-decoration:none }
+a.linksm31:active, a.linksm31:hover {font-family: Verdana, Arial, sans-serif,  Tahoma; font-size: 9px; color:#f9bc00; font-weight:bold; text-decoration:underline; }
+
+/*email*/
+a.link01:link, a.link01:visited {font-family: "Trebuchet MS", Tahoma, Verdana, Arial, sans-serif; font-size: 10px; color:#948d8d; text-decoration:underline; }
+a.link01:active, a.link01:hover {font-family: "Trebuchet MS", Tahoma, Verdana, Arial, sans-serif; font-size: 11px; color:#948d8d; text-decoration:underline; }
+
+/* links footer*/
+a.link03:link, a.link03:visited {font-family: Verdana, Tahoma, "Trebuchet MS", Arial, sans-serif; font-size: 9px; color:#b0cbcb; text-decoration:none}
+a.link03:active, a.link03:hover {font-family: Verdana, Tahoma, "Trebuchet MS", Arial, sans-serif; font-size: 9px; color:#b0cbcb; text-decoration:none}
+a.link04:link, a.link04:visited {font-family: Verdana, Tahoma, "Trebuchet MS", Arial, sans-serif; font-size: 9px; color:#b0cbcb; text-decoration:none}
+a.link04:active, a.link04:hover {font-family: Verdana, Tahoma, "Trebuchet MS", Arial, sans-serif; font-size: 9px; color:#b0cbcb; text-decoration:none}
+
+/*mapa web*/
+a.link05:link, a.link05:visited {font-family: Verdana, Tahoma, "Trebuchet MS", Arial, sans-serif; font-size: 12px; color:#000000; text-decoration:none; }
+a.link05:active, a.link05:hover {font-family: Verdana, Tahoma, "Trebuchet MS", Arial, sans-serif; font-size: 12px; color:#01a9eb; text-decoration:underline; }
+a.link06:link, a.link06:visited {font-family: Verdana, Tahoma, "Trebuchet MS", Arial, sans-serif; font-size: 12px; color:#6b6b6b; text-decoration:none; }
+a.link06:active, a.link06:hover {font-family: Verdana, Tahoma, "Trebuchet MS", Arial, sans-serif; font-size: 12px; color:#0483AD; text-decoration:underline; }
+
+
+
+
+
+
+.txtcampos { font-size: 10px; color: #7d7c80; font-family: "Trebuchet MS", Tahoma, Verdana, Arial, sans-serif;}
+.txtcampos1 { font-size: 11px; color: #7d7c80; font-family: "Trebuchet MS", Tahoma, Verdana, Arial, sans-serif;}
+.txtcampos2 { font-size: 11px; color: #9974a5; font-family: "Trebuchet MS", Tahoma, Verdana, Arial, sans-serif; font-weight:bold;}
+.input2{
+	font-size: 11px; color: #7d7c80; 
+	font-family: "Trebuchet MS", Tahoma, Verdana, Arial, sans-serif;
+	background-color: #FFFFFF;	text-decoration: none;
+	width:250px; height:18px; padding-left: 5px;
+	border: 1px solid #95886c;
+}
+
+.btn {
+	font-family: "Trebuchet MS", Tahoma, Verdana, Arial, sans-serif;
+	font-size: 11px; color: #FFFFFF; 
+	width:100px; height:24px;
+	background-color: #95886c;	border: 0px solid #95886c;
+}
+
+.textarea {
+	font-family: "Trebuchet MS", Tahoma, Verdana, Arial, sans-serif;
+	font-size: 11px; color: #7d7c80; padding-left: 5px;
+	background-color: #FFFFFF; border: 1px solid #95886c;
+	width:250px;	height:100px;
+}
+
+.textarea1 {
+	font-family: "Trebuchet MS", Tahoma, Verdana, Arial, sans-serif;
+	font-size: 11px; color: #7d7c80; padding-left: 5px;
+	background-color: #FFFFFF; border: 1px solid #95886c;
+	width:250px;	height:24px;
+}
+
+
+
+
